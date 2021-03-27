@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>angleto</title>
+	<title>Angle to</title>
 	<meta charset="utf-8">
 	<meta name="title=" content="angleto">
 	<meta name="robots" content="index, follow">
@@ -9,11 +9,19 @@
 	<meta name="description" content="calculate the angle from one point to another">
 	<meta name="keywords" content="">
 	<!-- <link rel="shortcut icon" href="img/icon.png"> -->
-
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/scripts.js"></script>
 </head>
 <body>
-	<h1>angleto</h1>
+	<h1>Angle to</h1>
+	<h3>Calculate the angle from one point to another</h3>
+
+	<div id="inputs"></div>
+	<button onclick="calc()"><b>Calculate</b></button>
+	<p id="output"></p>
+
+	<p>Formula:</p>
+	<p><code>angleTo = (x1,y1,x2,y2) =&gt; Math.atan2(y2-y1,x2-x1)</code></p>
+	<a href="https://math.stackexchange.com/q/707673/527418" target="_blank">Stack Exchange</a>
 </body>
 </html>
